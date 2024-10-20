@@ -1,0 +1,121 @@
+/* General styles for the entire page */
+body {
+  background-color: black;  /* Black background for the whole page */
+  color: #ff69b4;  /* Soft pink text for the entire page */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation styles (navbar at the top) */
+.navbar {
+  background-color: black;  /* Pure black background for navbar */
+  border-bottom: 2px solid #ff69b4;  /* Pink underline for navbar */
+}
+
+.nav-link {
+  color: #ff69b4;  /* Soft pink for navigation links (Home, About, etc.) */
+  text-decoration: none;
+  margin-right: 15px;  /* Spacing between links */
+  font-weight: bold;  /* Bold links */
+}
+
+.nav-link:hover {
+  color: white;  /* White hover effect for navigation links */
+}
+
+/* Header styling (used for main headings, like page titles) */
+h1, h2 {
+  color: #ff69b4;  /* Pink color for main headings */
+}
+
+/* Main content container styling (sections like Home, About, Skills) */
+.container {
+  padding: 40px;  /* Padding around content */
+  text-align: center;  /* Center-align content */
+  background-color: black;  /* Black background for each section */
+  border: 2px solid #ff69b4;  /* Pink border around sections */
+  border-radius: 15px;  /* Rounded corners for sections */
+  margin-top: 20px;  /* Space between top of sections */
+}
+
+/* Link styles (applies to all links on the page) */
+a {
+  color: #ff69b4;  /* Pink for all regular links */
+  text-decoration: none;  /* Remove underline from links */
+}
+
+a:hover {
+  color: white;  /* White hover effect for links */
+}
+
+/* List styles (for unordered lists like in the Skills section) */
+ul {
+  padding-left: 20px;  /* Indentation for list items */
+  list-style: none;  /* Remove bullets from list items */
+}
+
+li {
+  margin-bottom: 10px;  /* Space between list items */
+  font-size: 18px;  /* Slightly larger font size for list items */
+}
+
+/* Button styles */
+button {
+  background-color: #ff69b4;  /* Pink background for buttons */
+  color: black;  /* Black text for buttons */
+  border: none;  /* No border for buttons */
+  padding: 10px 20px;  /* Padding inside buttons */
+  cursor: pointer;  /* Pointer cursor for hover */
+  font-weight: bold;  /* Bold button text */
+  transition: background-color 0.3s ease;  /* Smooth color change on hover */
+}
+
+button:hover {
+  background-color: white;  /* White background when hovering over buttons */
+  color: black;  /* Black text when hovering */
+}
+
+/* Input and textarea styles (for forms or contact sections) */
+input, textarea {
+  background-color: black;  /* Black background for input fields */
+  color: #ff69b4;  /* Pink text for input fields */
+  border: 2px solid #ff69b4;  /* Pink border for inputs */
+  padding: 10px;  /* Padding inside input fields */
+  width: 100%;  /* Make input fields take full width of container */
+  margin-bottom: 10px;  /* Space between input fields */
+}
+
+input::placeholder, textarea::placeholder {
+  color: #ff69b4;  /* Pink placeholder text in input fields */
+}
+
+input:focus, textarea:focus {
+  outline: none;  /* Remove default focus outline */
+  border-color: white;  /* White border when input is focused */
+}
+
+/* Footer styles */
+footer {
+  background-color: black;  /* Black background for footer */
+  color: #ff69b4;  /* Pink text for footer */
+  padding: 20px 0;  /* Padding around footer content */
+  text-align: center;  /* Center-align footer text */
+  margin-top: 40px;  /* Space above the footer */
+}
+
+/* Styling for skills list */
+.skills-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0; /* Remove indentation */
+  font-size: 18px; /* Adjust the font size */
+  line-height: 2; /* Add spacing between items */
+}
+
+.skills-list li::before {
+  content: '•'; /* Custom bullet point */
+  color: #ff69b4; /* Pink bullet */
+  font-size: 20px; /* Make the bullet a little bigger */
+  display: inline-block; /* Ensure it stays on the same line as the text */
+  width: 1.5em; /* Space between bullet and text */
+}
